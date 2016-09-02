@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rain"
+    android:orientation="vertical"
+    android:padding="@dimen/widget_margin">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edison"
+            android:textColor="#ffffff"
+            android:padding="10dp"
+            android:id="@+id/place_textView" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:textColor="#ffffff"
+            android:padding="10dp"
+            android:id="@+id/degrees_textView" />
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textColor="#ffffff"
+        android:id="@+id/desc_textView"
+        android:padding="10dp" />
+</LinearLayout>
